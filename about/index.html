@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="" id="homepage">
+<html class="no-js" lang="" id="about">
 
 <head>
   <meta charset="utf-8">
@@ -11,13 +11,17 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/main.css">
 
   <meta name="theme-color" content="#fafafa">
 
+ <!-- Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
+
+ <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/f98f623dc3.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -50,7 +54,7 @@
 <!--    Made by Erik Terwan    -->
 <!--   24th of November 2015   -->
 <!--        MIT License        -->
-<nav role="navigation">
+<nav role="navigation" class="about-page">
     <div id="menuToggle">
       <!--
       A fake / hidden checkbox is used as click reciever,
@@ -73,17 +77,17 @@
       but hey, it's pure CSS magic.
       -->
       <ul id="menu">
-        <a href="#"><li>By Day</li></a>
-        <a href="#"><li>By Night</li></a>
-        <a href="#"><li>In the Cracks</li></a>
-        <a href="#"><li>The Rest</li></a>
+          <a href="../graphic-design/index.html"><li>By Day</li></a>
+          <a href="../illustration/index.html"><li>By Night</li></a>
+          <a href="../web-design-dev/index.html"><li>In the Cracks</li></a>
+          <a href="index.html"><li>The Rest</li></a>
       </ul>
     </div>
   </nav>
 
 
   <div class="logo">
-      <img src="img/logo_g_white.png">
+      <a href="../index.html"><img src="../img/logo_g_color.png"></a>
     </div>
 
 
@@ -92,19 +96,33 @@
     
   </header>
 
-  <main>
-      <div class="intro">
-          <h1><span>Graphic Design</span></h1>
-          <h2>By Day</h2>
-          <h1><span>Illustration</span></h1>
-          <h2>By Night</h2>
-          <h1><span>Web Design + Front End Development</span></h1>
-          <h2>In the Cracks</h2>
+  <main class="about-main">
+
+      <img src="../img/contact-image.jpg" class="contact-image">
+
+      <div class="bio">
+          <p>My name is Gretta, I'm a full-time graphic designer working just southwest of Minneapolis. Aside from graphic design, I spend many nights working on digital illustrations <em>and</em> am currently delving into front end development (that's right, I hand-coded this very site!). Outside of my beloved technology, I consider myself a nail-art enthusiest and a seasonal knitter.</p>
+
+          <p><span>As a designer,</span> I consider myself an optimistic realist. I believe in enthralling plans with plausible endings. I have a great appreciation and understanding of the rules which enables me to break them with precision. <span>As an illustrator,</span> I find my style is either extremely sharp or wonderfully imperfect. Professionally I have gravitated towards avatar drawing, from family portraits to entire departments. <span>As a web designer + front end developer,</span> I'm still figuring out what my style is. Care to find out with me?</p>
       </div>
+
+      <div class="contact-info">
+        <h2>I'm always connected to email.</h2>
+        <h3>Try me.</h3>
+        <p>goldstein<strong>gretta</strong>@gmail.com</p>
+      </div>
+
+      <div class="social">
+          <h2>Prefer to creep?</h2>
+          <a href="https://www.instagram.com/grettann/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.linkedin.com/in/gretta-goldstein-47b371124/" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    
+  
   </main>
 
   <footer>
-
+    <p>&copy; Gretta Goldstein 2019</p>
   </footer>
 
 </body>

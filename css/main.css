@@ -103,8 +103,7 @@ textarea {
 
 html {
   font-family: 'Lora', sans-serif;
-  color: #facf5a;
-  padding:20px;
+  
   font-size: 72px;
   
 }
@@ -126,19 +125,20 @@ html {
  nav
  {
    margin: 0;
-   padding: 0;
+   padding-left: 0;
    
    /* make it look decent enough */
   
    color: #cdcdcd;
    font-family: "Source Sans Pro", sans-serif;
    text-transform:uppercase;
+   
  }
  
  a
  {
    text-decoration: none;
-   color: #232323;
+   color: white;
    transition: color 0.3s ease;
  }
  
@@ -188,7 +188,7 @@ html {
    margin-bottom: 5px;
    position: relative;
    margin-left:0;
-   background: white;
+   background: #272121;
    border-radius: 3px;
    
    z-index: 1;
@@ -218,7 +218,7 @@ html {
  {
    opacity: 1;
    transform: rotate(45deg) translate(-2px, -1px);
-   background: #232323;
+   background: #757575;
  }
  
  /*
@@ -252,7 +252,7 @@ html {
    padding-top: 125px;
    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.4);
    
-   background: #ededed;
+   background: #272121;
    list-style-type: none;
    -webkit-font-smoothing: antialiased;
    /* to stop flickering of text in safari */
@@ -267,6 +267,8 @@ html {
  {
    padding: 10px 0;
    font-size: 22px;
+   border-bottom: 1px solid #757575;
+   border-top: 1px solid #757575;
  }
  
  /*
@@ -278,13 +280,20 @@ html {
  }
 
 
+ footer p {
+  border-top: 1px solid #757575;
+   text-align:center;
+   color:#757575;
+   
+ }
+
 
   /* END OF HAMBURGER MENU */
 
 /***** HOMEPAGE *****/
 
 #homepage {
-  background: url('../img/hero.jpg') no-repeat center center fixed;
+  background: url('../img/hero2.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -295,54 +304,173 @@ html {
   flex-flow: row wrap;
   height: 100%;
   overflow: hidden;
+  padding:20px;
   
 }
 
+
+.logo-homepage img {
+  display:flex;
+  width:1em;
+  float:right;
+  margin:0;
+ 
+  }
+
+
+
+.homepage-main {
+  clear:both;
+  padding-top:10%;
+  
+}
+
+.intro h1 {
+  line-height:40px;
+    font-size: .5em;
+    text-align:center;
+    color: #272121;
+    
+  }
+
+.intro h2 {
+    font-size: .3em;
+    text-align:center;
+    line-height:8px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    color:#45454d;
+    letter-spacing:6px;
+    
+  }
+
+/***** GRAPHIC DESIGN - BY DAY - ILLUSTRATION - BY NIGHT -*****/
+
+.portfolio-grid {
+  clear:both;
+}
+.portfolio-grid img {
+  width:100%;
+}
+
+figure {
+  margin:0;
+  padding-top:10px;
+}
+
+
+/***** WEB DESIGN AND FRONT END DEV - IN THE CRACKS -*****/
+.web-pieces {
+  background:whitesmoke;
+  height:200px;
+  display:flex;
+  padding:10px;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  
+}
+
+.web-pieces h2 {
+  font-size:.7em;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+
+.web-pieces a {
+  color:#272121;
+}
+
+
+/***** ABOUT - THE REST - *****/
 
 .logo img {
   display:flex;
   width:1em;
   float:right;
   margin:0;
-  padding:0;
+  padding-right:20px;
+  padding-bottom:20px;
   }
 
-header .content-wrapper {
+
+.about-page {
+
+  padding:0 20px;
+}
+
+
+#about p {
+  font-size:16px;
+  padding:0px 20px;
+}
+
+#about p span {
+  font-weight:700;
+}
+
+.about-main {
+  padding-top:75px;
   
 }
 
-main {
-  clear:both;
-  padding-top:100px;
+.contact-image {
+  width:100%;
 }
 
-.intro h1 {
-   
-    font-size: .4em;
-    text-align:left;
-    color:white;
-    
-  }
-
-.intro h2 {
-    font-size: .3em;
-    text-align:left;
-    line-height:.1em;
-    font-family: 'Source Sans Pro', sans-serif;
-    text-transform: uppercase;
-    font-weight: 400;
-  }
-
-
-.intro span {
-  background-color:#757575;
+.contact-info {
+  background-color:whitesmoke;
+  width:100%;
+  height:auto;
+  margin:0;
+  padding:20px 0;
+  
 }
 
+.contact-info h2 {
+  padding:0 20px;
+  font-size:.45em;
+  line-height:1em;
+  text-align:center;
+}
 
+.contact-info h3 {
+  padding:0 20px;
+  font-size:.3em;
+  line-height:1em;
+  text-align:center;
+}
 
+.contact-info p {
+  font-family:"Source Sans Pro", sans-serif;
+  text-transform:uppercase;
+  letter-spacing: 3px;
+  text-align:center;
+}
 
+.social h2 {
+  padding:0 20px;
+  font-size:.45em;
 
+}
 
+.social {
+  text-align:center;
+  line-height:5px;
+  
+}
+
+.social i {
+  font-size:.6em;
+  
+}
+
+.social a {
+  color:#757575;
+}
 
 
 
