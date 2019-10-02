@@ -103,7 +103,7 @@ textarea {
 
 html {
   font-family: 'Lora', sans-serif;
-  
+  margin:0 auto;
   font-size: 72px;
   
 }
@@ -113,7 +113,8 @@ html {
 }
 
 #content-wrapper {
-  
+  width:100%;
+  padding-top:20px;
 }
 
 
@@ -133,7 +134,7 @@ html {
  .mobile-menu nav
  {
    margin: 0;
-   padding-left: 0;
+   padding:0 20px;
    
    /* make it look decent enough */
   
@@ -596,10 +597,7 @@ figure {
       height:1300px;
     }
 
-    .home-content-wrapper {
-      width:100%;
-      padding-top:20px;
-    }
+    
 
 
     #menu li
