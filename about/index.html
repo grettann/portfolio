@@ -48,42 +48,44 @@
   <header class="content-wrapper">
     
 
+    <div class="mobile-menu">
 
 
+        <!--    Made by Erik Terwan    -->
+        <!--   24th of November 2015   -->
+        <!--        MIT License        -->
+        <nav role="navigation" class="about-page">
+            <div id="menuToggle">
+              <!--
+              A fake / hidden checkbox is used as click reciever,
+              so you can use the :checked selector on it.
+              -->
+              <input type="checkbox" />
+              
+              <!--
+              Some spans to act as a hamburger.
+              
+              They are acting like a real hamburger,
+              not that McDonalds stuff.
+              -->
+              <span></span>
+              <span></span>
+              <span></span>
+              
+              <!--
+              Too bad the menu has to be inside of the button
+              but hey, it's pure CSS magic.
+              -->
+              <ul id="menu">
+                  <a href="../graphic-design/index.html"><li>By Day</li></a>
+                  <a href="../illustration/index.html"><li>By Night</li></a>
+                  <a href="../web-design-dev/index.html"><li>In the Cracks</li></a>
+                  <a href="index.html"><li>The Rest</li></a>
+              </ul>
+            </div>
+          </nav>
 
-<!--    Made by Erik Terwan    -->
-<!--   24th of November 2015   -->
-<!--        MIT License        -->
-<nav role="navigation" class="about-page">
-    <div id="menuToggle">
-      <!--
-      A fake / hidden checkbox is used as click reciever,
-      so you can use the :checked selector on it.
-      -->
-      <input type="checkbox" />
-      
-      <!--
-      Some spans to act as a hamburger.
-      
-      They are acting like a real hamburger,
-      not that McDonalds stuff.
-      -->
-      <span></span>
-      <span></span>
-      <span></span>
-      
-      <!--
-      Too bad the menu has to be inside of the button
-      but hey, it's pure CSS magic.
-      -->
-      <ul id="menu">
-          <a href="../graphic-design/index.html"><li>By Day</li></a>
-          <a href="../illustration/index.html"><li>By Night</li></a>
-          <a href="../web-design-dev/index.html"><li>In the Cracks</li></a>
-          <a href="index.html"><li>The Rest</li></a>
-      </ul>
-    </div>
-  </nav>
+        </div>
 
 
   <div class="logo">
@@ -97,14 +99,17 @@
   </header>
 
   <main class="about-main">
-
+    <div class=flex-bio>
+    <figure>
       <img src="../img/contact-image.jpg" class="contact-image">
+    </figure>
 
-      <div class="bio">
-          <p>My name is Gretta, I'm a full-time graphic designer working just southwest of Minneapolis. Aside from graphic design, I spend many nights working on digital illustrations <em>and</em> am currently delving into front end development (that's right, I hand-coded this very site!). Outside of my beloved technology, I consider myself a nail-art enthusiest and a seasonal knitter.</p>
+      <div class="bio-text">
+          <p class="flex-bio">My name is Gretta, I'm a full-time graphic designer working just southwest of Minneapolis. Aside from graphic design, I spend many nights working on digital illustrations <em>and</em> am currently delving into front end development (that's right, I hand-coded this very site!). Outside of my beloved technology, I consider myself a nail-art enthusiest and a seasonal knitter.</p>
 
-          <p><span>As a designer,</span> I consider myself an optimistic realist. I believe in enthralling plans with plausible endings. I have a great appreciation and understanding of the rules which enables me to break them with precision. <span>As an illustrator,</span> I find my style is either extremely sharp or wonderfully imperfect. Professionally I have gravitated towards avatar drawing, from family portraits to entire departments. <span>As a web designer + front end developer,</span> I'm still figuring out what my style is. Care to find out with me?</p>
+          <p class="flex-text"><span>As a designer,</span> I consider myself an optimistic realist. I believe in enthralling plans with plausible endings. I have a great appreciation and understanding of the rules which enables me to break them with precision. <span>As an illustrator,</span> I find my style is either extremely sharp or wonderfully imperfect. Professionally I have gravitated towards avatar drawing, from family portraits to entire departments. <span>As a web designer + front end developer,</span> I'm still figuring out what my style is. Care to find out with me?</p>
       </div>
+    </div>
 
       <div class="contact-info">
         <h2>I'm always connected to email.</h2>
@@ -114,8 +119,8 @@
 
       <div class="social">
           <h2>Prefer to creep?</h2>
-          <a href="https://www.instagram.com/grettann/" target="_blank"><i class="fab fa-linkedin"></i></a>
-          <a href="https://www.linkedin.com/in/gretta-goldstein-47b371124/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/gretta-goldstein-47b371124/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/grettann/" target="_blank"><i class="fab fa-instagram"></i></a>
       </div>
     
   

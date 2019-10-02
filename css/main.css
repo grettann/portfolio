@@ -108,6 +108,14 @@ html {
   
 }
 
+.desktop-menu {
+  display:none;
+}
+
+#content-wrapper {
+  
+}
+
 
 /* HAMBURGER MENU
 
@@ -122,7 +130,7 @@ html {
  * prefixes.
  */
 
- nav
+ .mobile-menu nav
  {
    margin: 0;
    padding-left: 0;
@@ -246,7 +254,7 @@ html {
  {
    position: absolute;
    width: 50%;
-   height:1000px;
+   height:700px;
    margin: -100px 0 0 -100px;
    padding: 100px;
    padding-top: 125px;
@@ -289,6 +297,8 @@ html {
 
 
   /* END OF HAMBURGER MENU */
+
+
 
 /***** HOMEPAGE *****/
 
@@ -358,6 +368,17 @@ figure {
   margin:0;
   padding-top:10px;
 }
+
+
+.view-next-project {
+  text-align:center;
+ 
+}
+
+.view-next-project a {
+  color:black;
+}
+
 
 
 /***** WEB DESIGN AND FRONT END DEV - IN THE CRACKS -*****/
@@ -563,9 +584,158 @@ figure {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
+   @media only screen and (min-width:768px) {
+    /*Tablet styles here*/
+
+      /* HOMEPAGE */
+
+
+    #menu
+    {
+      width: 50%;
+      height:1300px;
+    }
+
+    .home-content-wrapper {
+      width:100%;
+      padding-top:20px;
+    }
+
+
+    #menu li
+    {
+      padding: 20px 0;
+      font-size:30px;
+     
+    }
+
+    .intro h1 {
+      font-size: 1em;
+     line-height:80px;
+      }
+    
+    .intro h2 {
+        font-size: .5em;
+        letter-spacing:6px;
+        
+      }
+
+      /* PORTFOLIO PAGES */
+
+      .portfolio-grid {
+        padding:0;
+        margin:0;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content:center;
+      }
+
+      .portfolio-grid figure{
+        padding:5px;
+        width:350px;
+        height:auto;
+        margin:10px;
+
+      }
+
+
+      /* WEB PAGE */
+
+
+      .web-pieces {
+       width:100%;
+      }
+
+      .web-pieces h2 {
+        font-size:1em;
+      }
+
+
+      /* ABOUT */
+
+     
+
+      .bio-text {
+       
+        
+        height:auto;
+        margin:50px 100px;
+       
+      }
+
+      .about-main figure {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+      }
+
+    
+
+   }
+
+
+   @media only screen and (min-width:1200px) {
+    /*Desktop styles here*/
+
+
+    html {
+      max-width: 960px;
+      margin:0 auto;
+    }
+
+    
+    .mobile-menu {
+      display:none;
+    }
+
+    header .content-wrapper {
+     padding-top:50px;
+   }
+
+    header .desktop-menu {
+      float:left;
+      
+    }
+
+    .desktop-menu {
+      
+      width:50%;
+      display:initial;
+    }
+
+    .desktop-menu nav {
+      font-size:16px;
+      padding-right:10px;
+    }
+
+    .desktop-menu ul {
+      list-style-type:none;
+      text-align:left;
+      padding:0;
+      margin:0;
+    }
+
+    .desktop-menu ul li {
+      display:inline;
+      padding-right:15px;
+      
+      
+    }
+  
+   .homepage-main {
+     max-width: 960px;
+     padding:0;
+     margin:0 auto;
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     
+    }
+
+   
+
+   }
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
