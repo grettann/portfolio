@@ -112,13 +112,19 @@ a {
   text-decoration:none;
 }
 
+
+.intro a {
+  color:#272121;
+}
+
+
 .desktop-menu {
   display:none;
 }
 
 #content-wrapper {
   width:100%;
-  padding-top:20px;
+ 
 }
 
 
@@ -633,12 +639,16 @@ figure {
         justify-content:center;
       }
 
-      .portfolio-grid figure{
+      .portfolio-main{
         padding:5px;
         width:350px;
         height:auto;
         margin:10px;
 
+      }
+
+      .portfolio-indv {
+        width: 70%;
       }
   
 
@@ -762,7 +772,11 @@ figure {
      align-items:center;
      
     }
-
+  
+   
+    .intro a:hover {
+      opacity:.5;
+    }
 
     
     
