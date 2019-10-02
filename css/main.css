@@ -108,6 +108,10 @@ html {
   
 }
 
+a {
+  text-decoration:none;
+}
+
 .desktop-menu {
   display:none;
 }
@@ -134,7 +138,7 @@ html {
  .mobile-menu nav
  {
    margin: 0;
-   padding:0 20px;
+   
    
    /* make it look decent enough */
   
@@ -144,14 +148,15 @@ html {
    
  }
  
- a
+
+ .mobile-menu a
  {
    text-decoration: none;
    color: white;
    transition: color 0.3s ease;
  }
  
- a:hover
+ .mobile-menu a:hover
  {
    color: #757575;
  }
@@ -377,7 +382,7 @@ figure {
 }
 
 .view-next-project a {
-  color:black;
+  color:#272121;
 }
 
 
@@ -635,7 +640,7 @@ figure {
         margin:10px;
 
       }
-
+  
 
       /* WEB PAGE */
 
@@ -680,6 +685,7 @@ figure {
     html {
       max-width: 960px;
       margin:0 auto;
+      padding-top:40px;
     }
 
     
@@ -696,11 +702,37 @@ figure {
       
     }
 
+
     .desktop-menu {
-      
+      font-family: "Source Sans Pro", sans-serif;
       width:50%;
       display:initial;
+      text-transform:uppercase;
+      
     }
+
+    .desktop-menu a
+    {
+   
+      color: white;
+      transition: color 0.3s ease;
+    }
+    
+    
+    .desktop-menu a:hover {
+      opacity:.5;
+      
+    }
+
+   .white-background a {
+      color:#272121;
+    }
+    
+
+    .portfolio-grid a:hover {
+      opacity:.3;
+    }
+    
 
     .desktop-menu nav {
       font-size:16px;
@@ -731,6 +763,13 @@ figure {
      
     }
 
+
+    
+    
+    .intro h1 a:hover {
+        opacity:.5;
+        
+      }
    
 
    }
